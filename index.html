@@ -14,5 +14,15 @@
       document.getElementById("reponse").textContent = "Ouvert du lundi au vendredi";
     });
   </script>
+
+  <p>Nous répondons à toutes vos questions sur nos formations.</p>
+  <button id="tarifs">Voir les tarifs</button>
+  <p id="prix"></p>
+
+  <script>
+    document.getElementById("tarifs").addEventListener("click", () => {
+      document.getElementById("prix").textContent = "Formation : 500 €";
+    });
+  </script>
 </body>
 </html>
