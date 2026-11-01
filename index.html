@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Mon atelier</title>
+</head>
+<body>
+  <h1>Bienvenue à l'atelier</h1>
+  <button id="horaires">Voir les horaires</button>
+  <p id="reponse"></p>
+
+  <script>
+    document.getElementById("horaires").addEventListener("click", () => {
+      document.getElementById("reponse").textContent = "Ouvert du lundi au vendredi";
+    });
+  </script>
+</body>
+</html>
